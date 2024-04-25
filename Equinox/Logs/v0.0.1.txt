@@ -1,0 +1,5 @@
+v0.0.1 log:
+v0.0 [preparing folders for start of development]
+-added previous stuff from ccs3
+-added example datapacks for right click detection
+-added recource pack custom item code
