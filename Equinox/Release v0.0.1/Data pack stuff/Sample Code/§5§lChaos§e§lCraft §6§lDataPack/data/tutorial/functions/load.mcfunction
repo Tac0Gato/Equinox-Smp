@@ -1,0 +1,1 @@
+tellraw @a[tag=debug] ["",{"text":"[Chaos","bold":true,"underlined":true,"color":"dark_purple"},{"text":"Craft]","bold":true,"underlined":true,"color":"#F7F718"},{"text":" ","bold":true,"color":"black"},{"text":": Datapack Loaded [END UPDATE!!!]","bold":true,"color":"gold"}]

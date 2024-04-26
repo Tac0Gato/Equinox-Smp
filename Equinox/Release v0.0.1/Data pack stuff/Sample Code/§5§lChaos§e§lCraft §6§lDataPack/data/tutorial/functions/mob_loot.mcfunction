@@ -1,0 +1,17 @@
+execute as @e[type=zombie,tag=Bone_Zombie] at @s run data merge entity @s {DeathLootTable:"minecraft:bone_zombie"}
+execute as @e[type=zombie,tag=Webbed_Zombie] at @s run data merge entity @s {DeathLootTable:"minecraft:webbed_zombie"}
+execute as @e[type=zombie,tag=Oak_Zombie] at @s run data merge entity @s {DeathLootTable:"minecraft:oak_zombie"}
+execute as @e[type=zombie,tag=Leather_Zombie] at @s run data merge entity @s {DeathLootTable:"minecraft:leather_zombie"}
+execute as @e[type=zombie,tag=Gunpowder_Zombie] at @s run data merge entity @s {DeathLootTable:"minecraft:gunpowder_zombie"}
+execute as @e[type=zombie,tag=Minion_Zombie] at @s run data merge entity @s {DeathLootTable:"minecraft:minion_zombie"}
+execute as @e[type=zombie,tag=Boss_Zombie] at @s run data merge entity @s {DeathLootTable:"minecraft:boss_zombie"}
+execute as @e[team=Viel_Gatekeepers] at @s run data merge entity @s {DeathLootTable:"minecraft:veil_gatekeeper"}
+execute as @e[type=phantom,tag=Boss_Dragon] at @s run data merge entity @s {DeathLootTable:"minecraft:boss_dragon"}
+execute as @e[type=wither_skeleton,tag=Void_Guard] at @s run data merge entity @s {DeathLootTable:"minecraft:void_guard"}
+execute as @e[type=wither_skeleton,tag=Void_Templar] at @s run data merge entity @s {DeathLootTable:"minecraft:void_templar"}
+execute as @e[type=skeleton,tag=Void_Sentinel] at @s run data merge entity @s {DeathLootTable:"minecraft:void_sentinel"}
+execute as @e[type=skeleton,tag=Void_Knight] at @s run data merge entity @s {DeathLootTable:"minecraft:void_knight"}
+execute as @e[type=wither_skeleton,tag=Void_Guard+] at @s run data merge entity @s {DeathLootTable:"minecraft:void_guard2"}
+execute as @e[type=wither_skeleton,tag=Void_Templar+] at @s run data merge entity @s {DeathLootTable:"minecraft:void_templar2"}
+execute as @e[type=skeleton,tag=Void_Sentinel+] at @s run data merge entity @s {DeathLootTable:"minecraft:void_sentinel2"}
+execute as @e[type=skeleton,tag=Void_Knight+] at @s run data merge entity @s {DeathLootTable:"minecraft:void_knight2"}

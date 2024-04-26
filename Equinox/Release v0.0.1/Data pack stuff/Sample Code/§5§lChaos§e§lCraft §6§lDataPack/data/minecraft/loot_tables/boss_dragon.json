@@ -1,0 +1,178 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 3,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 32,
+            "name": "minecraft:medium_amethyst_bud",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Tags:[\"VE128\"],display:{Name:'[{\"text\":\"Void Clump\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]',Lore:['[{\"text\":\"[\",\"italic\":false},{\"text\":\"Void Essence Item\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_purple\"}]','[{\"text\":\"{\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"128x\",\"color\":\"dark_gray\"},{\"text\":\"}\",\"color\":\"dark_purple\"}]']},Enchantments:[{}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:large_amethyst_bud",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Tags:[\"VE512\"],display:{Name:'[{\"text\":\"Void Bundle\",\"italic\":false,\"bold\":true,\"color\":\"dark_purple\"}]',Lore:['[{\"text\":\"[\",\"italic\":false},{\"text\":\"Void Essence Item\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_purple\"}]','[{\"text\":\"{\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"512x\",\"color\":\"dark_gray\"},{\"text\":\"}\",\"color\":\"dark_purple\"}]']},Enchantments:[{}]}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{SkullOwner:{Id:[I;-12391,22157,438,-44314],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTgxOTRlZmEzYmM3ZTIwMjc3NTU3YmQ0MDVhOGM4ZGEyMzVmZjgyY2VjMDNmZTZmZGQyNWM2MjBjY2JhM2I2YiJ9fX0=\"}]}},display:{Name:'[{\"text\":\"Severed Abysal Dragon Head\",\"italic\":false,\"color\":\"#6600ff\"}]',Lore:['[{\"text\":\"A rare drop from \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"[\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"The Abyssal Dragon\",\"color\":\"#6600ff\"},{\"text\":\"]\"},{\"text\":\"!\",\"color\":\"gray\"}]']}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 49,
+            "name": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:chain",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1,display:{Name:'[{\"text\":\"Abyss String\",\"italic\":false,\"color\":\"#6600ff\"}]',Lore:['[{\"text\":\"[\",\"italic\":false},{\"text\":\"Boss Item\",\"color\":\"gold\"},{\"text\":\"]\",\"color\":\"dark_purple\"}]','[{\"text\":\"{\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Crafting Item\",\"color\":\"dark_gray\"},{\"text\":\"}\",\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\":\"⚠ \",\"italic\":false,\"color\":\"red\"},{\"text\":\"If placed item will lose value\",\"color\":\"yellow\"},{\"text\":\" ⚠\"}]']},Enchantments:[{}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 4,
+          "max": 9
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:phantom_membrane",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Tags:[\"am\"],display:{Name:'[{\"text\":\"Abyss Membrane\",\"italic\":false,\"color\":\"#6600ff\"}]',Lore:['[{\"text\":\"[\",\"italic\":false},{\"text\":\"Boss Item\",\"color\":\"gold\"},{\"text\":\"]\",\"color\":\"dark_purple\"}]','[{\"text\":\"{\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Crafting Item\",\"color\":\"dark_gray\"},{\"text\":\"}\",\"color\":\"dark_purple\"}]']},Enchantments:[{}]}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1,CustomModelData:1063,Tags:[\"bdfa\"],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:6,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-12391,31269,24832,-62538]},{AttributeName:\"generic.attack_speed\",Amount:-0.87,Slot:mainhand,Operation:1,Name:\"generic.attack_speed\",UUID:[I;-12391,31369,24832,-62738]},{AttributeName:\"generic.movement_speed\",Amount:-0.03,Slot:mainhand,Name:\"generic.movement_speed\",UUID:[I;-12391,31469,24832,-62938]}],display:{Name:'[{\"text\":\"Broken \",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"Dragon\",\"color\":\"#ff3366\"},{\"text\":\"flame\",\"color\":\"#ff9933\"},{\"text\":\" Axe\",\"color\":\"#6600ff\"}]',Lore:['[{\"text\":\"[\",\"italic\":false},{\"text\":\"Boss Item\",\"color\":\"gold\"},{\"text\":\"]\",\"color\":\"dark_purple\"}]','[{\"text\":\"<\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"✦\",\"color\":\"gold\",\"bold\":true},{\"text\":\"✦✦\",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\">\",\"color\":\"dark_purple\",\"bold\":false}]','[{\"text\":\"{\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Crafting Item\",\"color\":\"dark_gray\"},{\"text\":\"}\",\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]']}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unbreakable:1,CustomModelData:1061,Tags:[\"bdfs\"],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:4,Slot:mainhand,Name:\"generic.attack_damage\",UUID:[I;-12391,25369,24832,-50738]},{AttributeName:\"generic.attack_speed\",Amount:-0.76,Slot:mainhand,Operation:1,Name:\"generic.attack_speed\",UUID:[I;-12391,25469,24832,-50938]}],display:{Name:'[{\"text\":\"Broken \",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"Dragon\",\"color\":\"#ff3366\"},{\"text\":\"flame\",\"color\":\"#ff9933\"},{\"text\":\" Sword\",\"color\":\"#6600ff\"}]',Lore:['[{\"text\":\"[\",\"italic\":false},{\"text\":\"Boss Item\",\"color\":\"gold\"},{\"text\":\"]\",\"color\":\"dark_purple\"}]','[{\"text\":\"<\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"✦\",\"color\":\"gold\",\"bold\":true},{\"text\":\"✦✦\",\"color\":\"dark_gray\",\"bold\":true},{\"text\":\">\",\"color\":\"dark_purple\",\"bold\":false}]','[{\"text\":\"{\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Crafting Item\",\"color\":\"dark_gray\"},{\"text\":\"}\",\"color\":\"dark_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]']}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:netherite_scrap",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Tags:[\"va\"],display:{Name:'[{\"text\":\"Void Alloy\",\"italic\":false,\"color\":\"#6600ff\"}]',Lore:['[{\"text\":\"[\",\"italic\":false},{\"text\":\"Boss Item\",\"color\":\"gold\"},{\"text\":\"]\",\"color\":\"dark_purple\"}]','[{\"text\":\"{\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Crafting Item\",\"color\":\"dark_gray\"},{\"text\":\"}\",\"color\":\"dark_purple\"}]','[{\"text\":\"(\",\"italic\":false,\"color\":\"dark_purple\"},{\"text\":\"Netherite Scrap Substitute\",\"color\":\"dark_gray\"},{\"text\":\")\",\"color\":\"dark_purple\"}]']},Enchantments:[{}]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 32
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:obsidian",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Withered \",\"italic\":false,\"color\":\"black\"},{\"text\":\"Abyssal Stone\",\"color\":\"#6600ff\"}]',Lore:['[{\"text\":\"[\",\"italic\":false},{\"text\":\"Withered Item\",\"color\":\"dark_gray\"},{\"text\":\"]\",\"color\":\"dark_purple\"}]']}}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dragon_breath"
+          }
+        ]
+      }
+    ]
+  }
+  

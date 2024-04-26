@@ -1,0 +1,27 @@
+{
+	"type": "crafting_shaped",
+	"key": {
+		"X": { "item": "minecraft:blaze_powder" },
+		"B": { "item": "minecraft:blaze_rod" }
+	},
+	"pattern": [
+		" X ",
+		"XBX",
+		" X "
+	],
+	"result": {
+		"id": "minecraft:blaze_rod",
+		"components": {
+			"item_name": "{\"text\":\"Continuous Flame Wand\",\"color\":\"gold\"}",
+			"enchantment_glint_override": true,
+			"food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"eat_seconds": 2147483647,
+				"can_always_eat": true
+			},
+			"max_stack_size": 1,
+			"custom_data": {"flame_wand":true}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"type": "crafting_shaped",
+	"key": {
+		"X": { "item": "minecraft:gunpowder" },
+		"B": { "item": "minecraft:nether_star" }
+	},
+	"pattern": [
+		" X ",
+		"XBX",
+		" X "
+	],
+	"result": {
+		"id": "minecraft:nether_star",
+		"components": {
+			"item_name": "{\"text\":\"Burst Charm\",\"color\":\"light_purple\"}",
+			"food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"eat_seconds": 2147483647,
+				"can_always_eat": true
+			},
+			"max_stack_size": 1,
+			"custom_data": {"burst_charm":true}
+		}
+	}
+}
