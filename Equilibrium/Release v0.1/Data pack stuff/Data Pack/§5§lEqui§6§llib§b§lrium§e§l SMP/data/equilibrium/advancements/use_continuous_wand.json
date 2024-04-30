@@ -5,5 +5,5 @@
 			"minecraft:custom_data": {"flame_wand":true}
 		}}}
 	}},
-	"rewards": { "function": "equinox:use_continuous_wand" }
+	"rewards": { "function": "equilibrium:use_continuous_wand" }
 }

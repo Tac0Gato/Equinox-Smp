@@ -1,0 +1,4 @@
+v0.1 log:
+v0.1 (preparing recource and datapack for server)
+-got a base datapack
+-made some textures (not in these folders yet :p)

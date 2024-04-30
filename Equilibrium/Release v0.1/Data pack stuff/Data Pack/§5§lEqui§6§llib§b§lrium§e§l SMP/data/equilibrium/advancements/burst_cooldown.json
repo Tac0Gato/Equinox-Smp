@@ -2,5 +2,5 @@
 	"criteria": { "tick": {
 		"trigger": "minecraft:tick"
 	}},
-	"rewards": { "function": "equinox:impulse_cooldown" }
+	"rewards": { "function": "equilibrium:burst_cooldown" }
 }
