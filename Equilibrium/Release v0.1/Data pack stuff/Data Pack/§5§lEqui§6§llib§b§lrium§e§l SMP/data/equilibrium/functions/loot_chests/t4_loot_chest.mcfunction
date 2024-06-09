@@ -31,7 +31,7 @@ execute if score @s .loot_timer matches 1..4 run playsound minecraft:block.ameth
 execute if score @s .loot_timer matches 139 run tp @s ~ ~16 ~
 
 #places and destroys barrel all on the same tick ALSO LOOT TABLE THING HERE!!!!!!!!!!
-execute if score @s .loot_timer matches 5 run setblock ~ ~ ~ minecraft:barrel[facing=up]{LootTable:"minecraft:chests/simple_dungeon"}
+execute if score @s .loot_timer matches 5 run setblock ~ ~ ~ minecraft:barrel[facing=up]{LootTable:"equilibrium:t4_loot"}
 execute if score @s .loot_timer matches 5 run setblock ~ ~ ~ air destroy
 execute if score @s .loot_timer matches 5 run kill @e[type=item,nbt={Item:{id:"minecraft:barrel"}},distance=..2]
 

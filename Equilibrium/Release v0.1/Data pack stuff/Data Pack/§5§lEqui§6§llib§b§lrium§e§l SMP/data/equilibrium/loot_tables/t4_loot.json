@@ -1,0 +1,360 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 121
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "text": "Unrefined",
+                "color": "dark_gray",
+                "italic": false,
+                "extra": [
+                  {
+                    "text": " ",
+                    "italic": false
+                  },
+                  {
+                    "text": "Cel",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  {
+                    "text": "est",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "ial",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "italic": false
+                  },
+                  {
+                    "text": "Essence",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "[",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "x1",
+                      "color": "white",
+                      "italic": false,
+                      "extra": [
+                        {
+                          "text": "]",
+                          "color": "gray",
+                          "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "{",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "☽",
+                      "color": "dark_purple",
+                      "italic": false,
+                      "extra": [
+                        {
+                          "text": " ",
+                          "color": "light_purple",
+                          "italic": false,
+                          "extra": [
+                            {
+                              "text": "★",
+                              "color": "aqua",
+                              "italic": false,
+                              "extra": [
+                                {
+                                  "text": " ",
+                                  "color": "light_purple",
+                                  "italic": false,
+                                  "extra": [
+                                    {
+                                      "text": "☀",
+                                      "color": "gold",
+                                      "italic": false,
+                                      "extra": [
+                                        {
+                                          "text": "}",
+                                          "color": "gray"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "{",
+                  "color": "gray",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "text": "God Item",
+                      "color": "yellow",
+                      "italic": false,
+                      "extra": [
+                        {
+                          "text": "}",
+                          "color": "gray",
+                          "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Not very tasty",
+                  "color": "red",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 46,
+                "max": 64
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{essence:1b}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_breath",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_scute",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:budding_amethyst",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 14
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 24
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 11
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 13
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

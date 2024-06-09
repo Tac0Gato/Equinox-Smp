@@ -1,6 +1,7 @@
 {
     "values": [
         "equilibrium:basic",
-        "equilibrium:loot_chest"
+        "equilibrium:loot_chest",
+        "equilibrium:cheese"
     ]
 }

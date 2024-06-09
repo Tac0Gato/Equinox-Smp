@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/spider_eye"
+    },
+  "overrides":
+  [
+    { "predicate": { "custom_model_data": 121}, "model": "item/t1_essence"},
+    { "predicate": { "custom_model_data": 122}, "model": "item/t2_essence"},
+    { "predicate": { "custom_model_data": 123}, "model": "item/t3_essence"},
+    { "predicate": { "custom_model_data": 124}, "model": "item/t4_essence"},
+    { "predicate": { "custom_model_data": 125}, "model": "item/t5_essence"},
+    { "predicate": { "custom_model_data": 126}, "model": "item/tc_essence"}
+  ]
+  
+  }

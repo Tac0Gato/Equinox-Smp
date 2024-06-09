@@ -8,7 +8,7 @@ execute if score @s .loot_timer matches 140.. run particle dust{color:[0.8,0.8,0
 execute if score @s .loot_timer matches 140.. run particle dust{color:[0.8,0.8,0.8],scale:0.9} ^ ^-.5 ^.75 0 0 0 0 3
 execute if score @s .loot_timer matches 140.. run particle dust{color:[0.8,0.8,0.8],scale:0.9} ^ ^-.5 ^-.75 0 0 0 0 3
 execute if score @s .loot_timer matches 140 run particle dust{color:[0.8,0.8,0.8],scale:1.4} ^ ^ ^ 0.5 0.5 0.5 0 125
-execute if score @s .loot_timer matches 30..138 run particle minecraft:white_smoke ~ ~.5 ~ 0.175 0.175 0.175 0 32
+execute if score @s .loot_timer matches 10..138 run particle minecraft:white_smoke ~ ~.5 ~ 0.175 0.175 0.175 0 32
 execute if score @s .loot_timer matches 28..110 run particle minecraft:enchant ~ ~1.25 ~ 0 0 0 6 8
 execute if score @s .loot_timer matches 0..3 run particle minecraft:explosion ~ ~0.75 ~ 0.15 0.15 0.15 0 9
 
@@ -27,7 +27,7 @@ execute if score @s .loot_timer matches 2..4 run playsound minecraft:block.ameth
 execute if score @s .loot_timer matches 139 run tp @s ~ ~16 ~
 
 #places and destroys barrel all on the same tick ALSO LOOT TABLE THING HERE!!!!!!!!!!
-execute if score @s .loot_timer matches 5 run setblock ~ ~ ~ minecraft:barrel[facing=up]{LootTable:"minecraft:chests/simple_dungeon"}
+execute if score @s .loot_timer matches 5 run setblock ~ ~ ~ minecraft:barrel[facing=up]{LootTable:"equilibrium:t3_loot"}
 execute if score @s .loot_timer matches 5 run setblock ~ ~ ~ air destroy
 execute if score @s .loot_timer matches 5 run kill @e[type=item,nbt={Item:{id:"minecraft:barrel"}},distance=..2]
 

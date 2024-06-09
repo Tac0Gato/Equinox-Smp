@@ -2,7 +2,9 @@
 tag @s remove new
 
 #particles!!!!!
-execute if score @s .loot_timer matches 140.. run tp @s ~ ~.06 ~ facing ^.95 ^.06 ^4.5
+execute if score @s .loot_timer matches 140.. run tp @s ~ ~.06 ~ facing ^.7 ^.06 ^7
+
+execute if score @s .loot_timer matches 349..350 run particle reverse_portal ^ ^.5 ^ 0 0 0 5 48
 
 execute if score @s .loot_timer matches 140.. run particle dust{color:[0.05,0.0,0.05],scale:1} ^ ^1 ^2 0 0 0 1 3
 execute if score @s .loot_timer matches 140.. run particle dust{color:[0.05,0.0,0.05],scale:1} ^ ^1 ^-2 0 0 0 1 3
@@ -26,9 +28,18 @@ execute if score @s .loot_timer matches 140.. run particle minecraft:dripping_ob
 execute if score @s .loot_timer matches 140.. run particle minecraft:dripping_obsidian_tear ^ ^1 ^15 0 0 0 3 2
 execute if score @s .loot_timer matches 140.. run particle minecraft:dripping_obsidian_tear ^ ^1 ^-15 0 0 0 3 2
 
+execute if score @s .loot_timer matches 140.. run particle minecraft:dripping_obsidian_tear ^7.5 ^1 ^ 0 0 0 3 4
+execute if score @s .loot_timer matches 140.. run particle minecraft:dripping_obsidian_tear ^-7.5 ^1 ^ 0 0 0 3 4
+
+execute if score @s .loot_timer matches 140.. run particle minecraft:dripping_obsidian_tear ^15 ^1 ^ 0 0 0 3 2
+execute if score @s .loot_timer matches 140.. run particle minecraft:dripping_obsidian_tear ^15 ^1 ^ 0 0 0 3 2
+
 execute if score @s .loot_timer matches 140 run particle dust{color:[0.3,0.0,0.3],scale:2} ^ ^ ^ 0.6 1 0.6 0 100
 
-execute if score @s .loot_timer matches 10..138 run particle minecraft:smoke ~ ~.5 ~ 0.2 0.2 0.2 0 24
+
+execute if score @s .loot_timer matches 10..138 run particle minecraft:glow ^ ^.5 ^ 0.2 0.2 0.2 0.3 12
+execute if score @s .loot_timer matches 10..138 run particle minecraft:wax_on ^ ^.5 ^ 0.2 0.2 0.4 4 8
+execute if score @s .loot_timer matches 10..138 run particle minecraft:witch ^ ^.5 ^ 0.2 0.2 0.2 0.25 16
 execute if score @s .loot_timer matches 38..120 run particle minecraft:portal ~ ~.5 ~ 0 0 0 12 16
 execute if score @s .loot_timer matches 0..3 run particle minecraft:gust ~ ~0.75 ~ 0.2 0.2 0.2 0.3 4
 
@@ -37,6 +48,7 @@ execute if score @s .loot_timer matches 160.. run effect give @e[distance=..25,t
 execute if score @s .loot_timer matches 20..140 run effect give @e[distance=..25,type=!armor_stand] minecraft:slow_falling 1 0 true
 
 #sounds!!!!!!
+execute if score @s .loot_timer matches 350 run playsound minecraft:entity.ender_dragon.shoot master @a[distance=..30] ~ ~ ~ 15 0
 execute if score @s .loot_timer matches 340 run playsound minecraft:block.amethyst_block.chime master @a[distance=..30] ~ ~ ~ 15 1
 execute if score @s .loot_timer matches 320 run playsound minecraft:block.amethyst_block.chime master @a[distance=..30] ~ ~ ~ 15 .9
 execute if score @s .loot_timer matches 300 run playsound minecraft:block.amethyst_block.chime master @a[distance=..30] ~ ~ ~ 15 .8
@@ -48,13 +60,14 @@ execute if score @s .loot_timer matches 200 run playsound minecraft:block.amethy
 execute if score @s .loot_timer matches 180 run playsound minecraft:block.amethyst_block.chime master @a[distance=..30] ~ ~ ~ 15 .2
 execute if score @s .loot_timer matches 140 run playsound minecraft:block.amethyst_block.chime master @a[distance=..30] ~ ~ ~ 15 .1
 execute if score @s .loot_timer matches 140 run playsound minecraft:entity.firework_rocket.blast_far master @a[distance=..30] ~ ~ ~ 10 0
+execute if score @s .loot_timer matches 140 run playsound minecraft:block.beacon.activate master @a[distance=..120] ~ ~ ~ 100 0
 execute if score @s .loot_timer matches 0..4 run playsound minecraft:block.amethyst_block.hit master @a[distance=..30] ~ ~ ~ 10 0
 
 #teleports the fucker up in the air
 execute if score @s .loot_timer matches 139 run tp @s ~ ~16 ~
 
 #places and destroys barrel all on the same tick ALSO LOOT TABLE THING HERE!!!!!!!!!!
-execute if score @s .loot_timer matches 5 run setblock ~ ~ ~ minecraft:barrel[facing=up]{LootTable:"minecraft:chests/simple_dungeon"}
+execute if score @s .loot_timer matches 5 run setblock ~ ~ ~ minecraft:barrel[facing=up]{LootTable:"equilibrium:t5_loot"}
 execute if score @s .loot_timer matches 5 run setblock ~ ~ ~ air destroy
 execute if score @s .loot_timer matches 5 run kill @e[type=item,nbt={Item:{id:"minecraft:barrel"}},distance=..2]
 
