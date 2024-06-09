@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "N1N",
+      " 1 "
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:armadillo_scute"
+      },
+      "#": {
+        "item": "minecraft:diamond"
+      },
+      "1": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:diamond_pickaxe",
+      "count": 1
+    }
+  }

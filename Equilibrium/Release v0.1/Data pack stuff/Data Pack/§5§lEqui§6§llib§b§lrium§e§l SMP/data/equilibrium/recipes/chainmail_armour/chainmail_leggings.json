@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "N N",
+      "N N"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:chain"
+      },
+      "N": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "result": {
+      "id": "minecraft:chainmail_leggings"
+    }
+  }

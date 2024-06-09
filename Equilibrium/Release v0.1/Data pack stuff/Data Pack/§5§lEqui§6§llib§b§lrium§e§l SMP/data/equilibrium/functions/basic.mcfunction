@@ -1,0 +1,1 @@
+kill @e[scores={.loot_timer=..0}]

@@ -1,5 +1,6 @@
 {
     "values": [
-        "equilibrium:mob_loot"
+        "equilibrium:basic",
+        "equilibrium:loot_chest"
     ]
 }

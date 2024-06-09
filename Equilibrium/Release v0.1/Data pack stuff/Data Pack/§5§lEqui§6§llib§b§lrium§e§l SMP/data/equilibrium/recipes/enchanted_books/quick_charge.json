@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "121",
+      "343",
+      "536"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:arrow"
+      },
+      "2": {
+        "item": "minecraft:tripwire_hook"
+      },
+      "3": {
+        "item": "minecraft:redstone"
+      },
+      "4": {
+        "item": "minecraft:book"
+      },
+      "5": {
+        "item": "minecraft:comparator"
+      },
+      "6": {
+        "item": "minecraft:redstone_torch"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:quick_charge": 3
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }

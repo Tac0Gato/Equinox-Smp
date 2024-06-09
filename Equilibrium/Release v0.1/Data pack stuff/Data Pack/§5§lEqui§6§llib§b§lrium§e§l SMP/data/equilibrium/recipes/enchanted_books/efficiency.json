@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "637",
+    "454"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:brush"
+    },
+    "2": [
+      {
+        "item": "minecraft:sniffer_egg"
+      },
+      {
+        "item": "minecraft:turtle_egg"
+      }
+    ],
+    "3": {
+      "item": "minecraft:book"
+    },
+    "4": {
+      "item": "minecraft:tnt_minecart"
+    },
+    "5": {
+      "tag": "minecraft:pickaxes"
+    },
+    "6": {
+      "tag": "minecraft:axes"
+    },
+    "7": {
+      "tag": "minecraft:shovels"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:efficiency": 5
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

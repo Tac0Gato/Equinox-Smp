@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "232",
+    "454"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:arrow"
+    },
+    "2": {
+      "item": "minecraft:firework_star"
+    },
+    "3": {
+      "item": "minecraft:book"
+    },
+    "4": {
+      "item": "minecraft:dispenser"
+    },
+    "5": {
+      "item": "minecraft:crossbow"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:multishot": 1
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}
+

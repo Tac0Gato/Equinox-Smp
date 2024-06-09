@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RBR",
+    "SAS",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:lapis_block"
+    },
+    "S": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "R": {
+      "item": "minecraft:red_carpet"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanting_table"
+  }
+}

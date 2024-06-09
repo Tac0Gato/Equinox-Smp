@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "222",
+      "212",
+      "222"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:book"
+      },
+      "2": {
+        "tag": "minecraft:hoes"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:loyalty": 3
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

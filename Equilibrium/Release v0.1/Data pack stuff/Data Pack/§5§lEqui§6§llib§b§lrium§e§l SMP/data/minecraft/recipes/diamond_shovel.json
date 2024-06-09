@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "N1N",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "N": {
+      "item": "minecraft:coarse_dirt"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_shovel",
+    "count": 1
+  }
+}

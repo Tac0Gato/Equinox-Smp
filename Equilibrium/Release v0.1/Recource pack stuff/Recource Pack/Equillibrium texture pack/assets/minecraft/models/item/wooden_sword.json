@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/wooden_sword"
+  },
+    "overrides":
+[
+  { "predicate": { "custom_model_data": 1011}, "model": "item/sword_1"},
+  { "predicate": { "custom_model_data": 1012}, "model": "item/sword_2"},
+  { "predicate": { "custom_model_data": 1013}, "model": "item/sword_3"},
+  { "predicate": { "custom_model_data": 1014}, "model": "item/sword_4"}
+]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "121",
+      "343",
+      "151"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:golden_apple"
+      },
+      "2": {
+        "item": "minecraft:dragon_breath"
+      },
+      "3": {
+        "item": "minecraft:ghast_tear"
+      },
+      "4": {
+        "item": "minecraft:book"
+      },
+      "5": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:mending": 1
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

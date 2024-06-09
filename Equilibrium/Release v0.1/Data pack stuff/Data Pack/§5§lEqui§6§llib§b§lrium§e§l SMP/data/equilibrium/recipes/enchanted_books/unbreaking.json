@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "343",
+    "131"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "2": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "3": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "4": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:unbreaking": 3
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

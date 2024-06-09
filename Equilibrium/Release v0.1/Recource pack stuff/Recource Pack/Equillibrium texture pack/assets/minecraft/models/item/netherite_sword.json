@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+    "overrides":
+[
+  { "predicate": { "custom_model_data": 1061}, "model": "item/sword_61"},
+  { "predicate": { "custom_model_data": 1062}, "model": "item/sword_62"},
+  { "predicate": { "custom_model_data": 1063}, "model": "item/sword_63"},
+  { "predicate": { "custom_model_data": 1064}, "model": "item/sword_64"},
+  { "predicate": { "custom_model_data": 1065}, "model": "item/sword_65"},
+  { "predicate": { "custom_model_data": 1066}, "model": "item/sword_66"},
+  { "predicate": { "custom_model_data": 1067}, "model": "item/sword_67"},
+  { "predicate": { "custom_model_data": 1068}, "model": "item/sword_68"},
+  { "predicate": { "custom_model_data": 1069}, "model": "item/sword_69"}
+]
+}

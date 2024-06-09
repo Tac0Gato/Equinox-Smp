@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "242",
+    "353"
+  ],
+  "key": {
+    "1": [
+      {
+        "item": "minecraft:white_wool"
+      },
+      {
+        "item": "minecraft:pink_wool"
+      },
+      {
+        "item": "minecraft:light_blue_wool"
+      }
+    ],
+    "2": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "3": {
+      "item": "minecraft:redstone_block"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:binding_curse": 1
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

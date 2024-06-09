@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/apple"
+  },
+"overrides":
+[
+  { "predicate": { "custom_model_data": 111}, "model": "item/copper_coin"},
+  { "predicate": { "custom_model_data": 112}, "model": "item/silver_coin"},
+  { "predicate": { "custom_model_data": 113}, "model": "item/gold_coin"},
+  { "predicate": { "custom_model_data": 114}, "model": "item/netherite_coin"}
+]
+
+}

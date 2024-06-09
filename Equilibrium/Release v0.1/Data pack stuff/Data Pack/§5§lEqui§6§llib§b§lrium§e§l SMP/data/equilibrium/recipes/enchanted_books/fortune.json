@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "121",
+      "232",
+      "454"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:emerald_block"
+      },
+      "2": {
+        "tag": "minecraft:pickaxes"
+      },
+      "3": {
+        "item": "minecraft:book"
+      },
+      "4": {
+        "item": "minecraft:deepslate_diamond_ore"
+      },
+      "5": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:fortune": 3
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }

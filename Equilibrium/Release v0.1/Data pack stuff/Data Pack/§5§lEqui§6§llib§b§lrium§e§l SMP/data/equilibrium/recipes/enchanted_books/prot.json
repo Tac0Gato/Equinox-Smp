@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "111",
+      "232",
+      "111"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:diamond"
+      },
+      "2": {
+        "item": "minecraft:obsidian"
+      },
+      "3": {
+        "item": "minecraft:book"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:protection": 4
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

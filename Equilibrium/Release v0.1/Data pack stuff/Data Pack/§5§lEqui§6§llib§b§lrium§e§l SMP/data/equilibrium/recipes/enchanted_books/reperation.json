@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "121",
+      "343",
+      "565"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:pufferfish"
+      },
+      "2": {
+        "item": "minecraft:chainmail_helmet"
+      },
+      "3": {
+        "item": "minecraft:clay_ball"
+      },
+      "4": {
+        "item": "minecraft:book"
+      },
+      "5": {
+        "item": "minecraft:tropical_fish"
+      },
+      "6": {
+        "item": "minecraft:bucket"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:respiration": 3
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }

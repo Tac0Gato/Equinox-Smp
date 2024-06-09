@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "121",
+      "343",
+      "567"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:gunpowder"
+      },
+      "2": {
+        "item": "minecraft:water_bucket"
+      },
+      "3": {
+        "item": "minecraft:golden_apple"
+      },
+      "4": {
+        "item": "minecraft:book"
+      },
+      "5": {
+        "item": "minecraft:nether_wart"
+      },
+      "6": {
+        "item": "minecraft:blaze_powder"
+      },
+      "7": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:smite": 5
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }

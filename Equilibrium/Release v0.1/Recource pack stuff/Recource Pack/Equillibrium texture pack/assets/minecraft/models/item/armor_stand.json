@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/armor_stand"
+    },
+  "overrides":
+  [
+    { "predicate": { "custom_model_data": 111}, "model": "item/t1_chest"},
+    { "predicate": { "custom_model_data": 112}, "model": "item/t2_chest"},
+    { "predicate": { "custom_model_data": 113}, "model": "item/t3_chest"},
+    { "predicate": { "custom_model_data": 114}, "model": "item/t4_chest"},
+    { "predicate": { "custom_model_data": 115}, "model": "item/t5_chest"},
+    { "predicate": { "custom_model_data": 116}, "model": "item/tc_chest"}
+  ]
+  
+  }

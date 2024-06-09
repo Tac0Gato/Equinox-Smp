@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "343",
+    "151"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "2": {
+      "item": "minecraft:water_bucket"
+    },
+    "3": {
+      "item": "minecraft:pufferfish"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:turtle_scute"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:aqua_affinity": 1
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

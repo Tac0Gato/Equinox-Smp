@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "121",
+      "636",
+      "454"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:magma_cream"
+      },
+      "2": {
+        "item": "minecraft:blaze_powder"
+      },
+      "3": {
+        "item": "minecraft:book"
+      },
+      "4": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "5": {
+        "item": "minecraft:water_bucket"
+      },
+      "6": {
+        "item": "minecraft:lava_bucket"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:fire_protection": 4
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "343",
+    "525"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:lightning_rod"
+    },
+    "2": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "3": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:prismarine_crystals"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:channeling": 1
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

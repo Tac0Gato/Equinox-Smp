@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "121",
+      "232",
+      "141"
+    ],
+    "key": {
+      "1": {
+        "tag": "minecraft:leaves"
+      },
+      "2": {
+        "item": "minecraft:cobweb"
+      },
+      "3": {
+        "item": "minecraft:book"
+      },
+      "4": {
+        "item": "minecraft:honeycomb"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:silk_touch": 1
+          }
+        }
+      }
+    }
+  }

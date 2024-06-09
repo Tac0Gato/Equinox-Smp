@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "343",
+    "151"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:ender_pearl"
+    },
+    "2": {
+      "item": "minecraft:ghast_tear"
+    },
+    "3": {
+      "item": "minecraft:blaze_rod"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:looting": 3
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

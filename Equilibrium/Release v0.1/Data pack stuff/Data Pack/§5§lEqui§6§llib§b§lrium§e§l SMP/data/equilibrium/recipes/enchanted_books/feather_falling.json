@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "121",
+      "636",
+      "454"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "2": {
+        "item": "minecraft:water_bucket"
+      },
+      "3": {
+        "item": "minecraft:book"
+      },
+      "4": {
+        "item": "minecraft:feather"
+      },
+      "5": {
+        "item": "minecraft:phantom_membrane"
+      },
+      "6": {
+        "tag": "minecraft:axes"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:feather_falling": 4
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }
+  

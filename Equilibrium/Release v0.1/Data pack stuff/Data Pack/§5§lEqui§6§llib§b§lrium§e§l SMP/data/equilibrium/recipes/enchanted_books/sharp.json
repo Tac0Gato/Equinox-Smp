@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "121",
+      "232",
+      "444"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "2": {
+        "item": "minecraft:prismarine_shard"
+      },
+      "3": {
+        "item": "minecraft:book"
+      },
+      "4": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "count": 1,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "levels": {
+            "minecraft:sharpness": 5
+          },
+          "show_in_tooltip": true
+        }
+      }
+    }
+  }

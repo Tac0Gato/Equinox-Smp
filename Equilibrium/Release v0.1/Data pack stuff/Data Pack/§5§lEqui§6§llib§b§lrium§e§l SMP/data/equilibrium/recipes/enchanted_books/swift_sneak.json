@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "343",
+    "121"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:disc_fragment_5"
+    },
+    "2": {
+      "item": "minecraft:sweet_berries"
+    },
+    "3": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "4": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:swift_sneak": 3
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}
